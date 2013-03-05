@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://agahov.github.com/sitemap.xml 
