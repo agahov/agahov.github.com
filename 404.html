@@ -5,8 +5,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Праздник в коробке.</title>
+  <meta name="author" content="Julia Lugovskaya">
 
   
   <meta name="description" content="Page not found Sorry about that! Unfortunately the page you were looking for could not be found. It might have been removed, lost or never existed. &hellip;">
@@ -25,10 +25,213 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="agahov/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Праздник в коробке." type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add jQuery Slide show library -->
+<script src="/Slides-SlidesJS-3/source/jquery.slides.min.js"></script>
+
+	<style>
+	    #slides .slidesjs-navigation {
+	      margin-top:3px;
+	    }
+
+	    #slides .slidesjs-previous {
+	      margin-right: 5px;
+	      float: left;
+	    }
+
+	    #slides .slidesjs-next {
+	      margin-right: 5px;
+	      float: left;
+	    }
+
+	    .slidesjs-pagination {
+	      margin: 6px 0 0;
+	      float: right;
+	      list-style: none;
+	    }
+
+	    .slidesjs-pagination li {
+	      float: left;
+	      margin: 0 1px;
+	    }
+
+	    .slidesjs-pagination li a {
+	      display: block;
+	      width: 13px;
+	      height: 0;
+	      padding-top: 13px;
+	      background-image: url(/images/pagination.png);
+	      background-position: 0 0;
+	      float: left;
+	      overflow: hidden;
+	    }
+
+	    .slidesjs-pagination li a.active,
+	    .slidesjs-pagination li a:hover.active {
+	      background-position: 0 -13px
+	    }
+
+	    .slidesjs-pagination li a:hover {
+	      background-position: 0 -26px
+	    }
+
+	    #slides a:link,
+	    #slides a:visited {
+	      color: #333;
+		  outline: 0;
+		  text-decoration: none;
+	    }
+
+	    #slides a:hover,
+	    #slides a:active {
+	      color: #9e2020;
+		  outline: 0;
+		  text-decoration: none;
+	    }
+  </style>
+
+ <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 450,
+        height: 320,
+		navigation: false
+      });
+    });
+  </script>
+
+<!--silde2-->
+<style>
+    #slides2 .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides2 .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides2 .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(/images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides2 a:link,
+    #slides2 a:visited {
+      color: #333;
+	  outline: 0;
+	  text-decoration: none;
+    }
+
+    #slides2 a:hover,
+    #slides2 a:active {
+      color: #9e2020;
+	  outline: 0;
+	  text-decoration: none;
+    }
+</style>
+
+<style>
+#slides2 {
+  display: none
+}
+</style>
+
+
+<script>
+$(function(){
+  $("#slides2").slidesjs({
+    width: 450,
+    height: 320,
+	navigation: false
+  });
+});
+</script>
+
+
+
+
 
   
 
@@ -36,9 +239,8 @@
 
 <body   class="no-sidebar"  >
   <header role="banner"><hgroup>
-  <h1>My Octopress Blog</h1>
-  
-    <h2><a href="/">A blogging framework for hackers.</a></h2>
+ <img src="/images/logo.png" alt="logo">
+
   
 </hgroup>
 
@@ -52,9 +254,12 @@
   </fieldset>
 </form>
   
+<br/>
+
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/">Главная</a></li>
+  <li><a href="/blog/archives">Архив</a></li>
+  <li><a href="/order/index.html">Заказ</a></li>
 </ul>
 
 </nav>
@@ -93,7 +298,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
+  Copyright &copy; 2013 - Julia Lugovskaya -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

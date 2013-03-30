@@ -2,9 +2,21 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://agahov.github.com/blog/2013/03/05/zombie-ninjas-attack-a-survivors-retrospective/
+            http://agahov.github.com/blog/2013/03/16/pvk-1-prikliuchieniia-na-ostrovakh-bolshoi-karakatitsy/
         </loc>
-        <lastmod>2013-03-12T13:11:28+04:00</lastmod>
+        <lastmod>2013-03-24T16:26:59+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agahov.github.com/blog/2013/03/23/pvk-2-mastierskaia-zimnikh-chudies/</loc>
+        <lastmod>2013-03-24T18:38:45+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agahov.github.com/blog/2013/03/23/pvk-3-printsiessy-rytsari-i-drakon/</loc>
+        <lastmod>2013-03-24T18:45:44+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agahov.github.com/blog/2013/03/23/ks-1-dvienadtsat-miesiatsiev/</loc>
+        <lastmod>2013-03-24T18:27:12+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/404.html</loc>
@@ -12,11 +24,19 @@
     </url>
     <url>
         <loc>http://agahov.github.com/blog/archives/</loc>
-        <lastmod>2013-03-12T13:11:28+04:00</lastmod>
+        <lastmod>2013-03-24T18:45:44+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/</loc>
-        <lastmod>2013-03-12T13:11:28+04:00</lastmod>
+        <lastmod>2013-03-24T18:45:44+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agahov.github.com/order/</loc>
+        <lastmod>2013-03-30T19:50:11+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agahov.github.com/order/index_old.html</loc>
+        <lastmod>2013-03-30T15:25:49+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/robots.txt</loc>
