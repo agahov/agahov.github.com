@@ -4,7 +4,7 @@
   <title><![CDATA[Праздник в коробке.]]></title>
   <link href="http://agahov.github.com/atom.xml" rel="self"/>
   <link href="http://agahov.github.com/"/>
-  <updated>2014-06-19T20:32:53+04:00</updated>
+  <updated>2014-06-19T20:39:48+04:00</updated>
   <id>http://agahov.github.com/</id>
   <author>
     <name><![CDATA[Julia Lugovskaya]]></name>
@@ -31,7 +31,7 @@
 Краткий сюжет. Дети мастерят город, зажигают в домиках свет и придумывают, как готовятся жители города к Новому году. И вдруг прилетает Колдун Вьюгин и гасит свет в домиках и радость в сердцах жителей. Чтобы спасти город, дети идут к лесной колдунье и вместе с ней варят зелье радости. Зелье сложное - 9 ингредиентов и каждый предстоит как-то получить-добыть. Вернув в город радость, дети спешат сразиться со злым колдуном. И вот тут их ждет сюрприз. 
 </p>
 
-<div class="container">
+<div class="container"  style="width: 400px">
 <div id="slides">
     <img src="http://agahov.github.com/images/pvk5/pvk5_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk5/pvk5_2.jpg"/>
