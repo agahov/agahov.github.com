@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Праздник | Праздник в коробке.]]></title>
   <link href="http://agahov.github.com/blog/categories/Праздник/atom.xml" rel="self"/>
   <link href="http://agahov.github.com/"/>
-  <updated>2014-06-19T20:39:48+04:00</updated>
+  <updated>2014-06-19T20:46:23+04:00</updated>
   <id>http://agahov.github.com/</id>
   <author>
     <name><![CDATA[Julia Lugovskaya]]></name>
@@ -39,7 +39,7 @@
 
 
 
-<div class="container"  style="width: 400px">
+<div class="container"  style="width: 450px">
 <div id="slides">
     <img src="http://agahov.github.com/images/pvk5/pvk5_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk5/pvk5_2.jpg"/>
@@ -81,7 +81,7 @@
 </p>
 
 
-<div class="container">
+<div class="container" style="width: 450px">
 <div id="slides">
     <img src="http://agahov.github.com/images/pvk4/pvk4_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk4/pvk4_2.jpg"/>
@@ -106,7 +106,7 @@
 
 
 
-<div class="container">
+<div class="container" style="width: 450px">
 <div id="slides2">
     <img src="http://agahov.github.com/images/pvk4/pvk4pr_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk4/pvk4pr_2.jpg"/>
@@ -151,7 +151,7 @@
 </p>
 
 
-<div class="container">
+<div class="container" style="width: 450px">
 <div id="slides">
     <img src="http://agahov.github.com/images/pvk3/pvk3_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk3/pvk3_2.jpg"/>
@@ -173,7 +173,7 @@
 
 
 
-<div class="container">
+<div class="container" style="width: 450px">
 <div id="slides2">
     <img src="http://agahov.github.com/images/pvk3/pvk3pr_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk3/pvk3pr_2.jpg"/>
@@ -218,7 +218,7 @@
 </p>
 
 
-<div class="container">
+<div class="container" style="width: 450px">
 <div id="slides">
     <img src="http://agahov.github.com/images/pvk2/pvk2_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk2/pvk2_2.jpg"/>
@@ -240,7 +240,7 @@
 
 
 
-<div class="container">
+<div class="container" style="width: 450px">
 <div id="slides2">
     <img src="http://agahov.github.com/images/pvk2/pvk2pr_1.jpg"/>
     <img src="http://agahov.github.com/images/pvk2/pvk2pr_2.jpg"/>
