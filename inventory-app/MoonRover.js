@@ -281,10 +281,6 @@ ApplicationMain.main = function() {
 	var loader85 = new flash.display.Loader();
 	ApplicationMain.loaders.set("assets/1x/youtoo/youtoo_mini.png",loader85);
 	ApplicationMain.total++;
-	var urlLoader = new flash.net.URLLoader();
-	urlLoader.set_dataFormat(flash.net.URLLoaderDataFormat.BINARY);
-	ApplicationMain.urlLoaders.set("assets/fonts/OFL.txt",urlLoader);
-	ApplicationMain.total++;
 	var resourcePrefix = "__ASSET__:bitmap_";
 	var _g = 0, _g1 = haxe.Resource.listNames();
 	while(_g < _g1.length) {
@@ -309,9 +305,9 @@ ApplicationMain.main = function() {
 		var $it1 = ApplicationMain.urlLoaders.keys();
 		while( $it1.hasNext() ) {
 			var path = $it1.next();
-			var urlLoader1 = ApplicationMain.urlLoaders.get(path);
-			urlLoader1.addEventListener("complete",ApplicationMain.loader_onComplete);
-			urlLoader1.load(new flash.net.URLRequest(path));
+			var urlLoader = ApplicationMain.urlLoaders.get(path);
+			urlLoader.addEventListener("complete",ApplicationMain.loader_onComplete);
+			urlLoader.load(new flash.net.URLRequest(path));
 		}
 	}
 }
@@ -1925,9 +1921,6 @@ var DefaultAssetLibrary = function() {
 	DefaultAssetLibrary.className.set("assets/fonts/Iceland-Regular.ttf",__ASSET__assets_fonts_iceland_regular_ttf);
 	var value = Reflect.field(openfl.AssetType,"font".toUpperCase());
 	DefaultAssetLibrary.type.set("assets/fonts/Iceland-Regular.ttf",value);
-	DefaultAssetLibrary.path.set("assets/fonts/OFL.txt","assets/fonts/OFL.txt");
-	var value = Reflect.field(openfl.AssetType,"text".toUpperCase());
-	DefaultAssetLibrary.type.set("assets/fonts/OFL.txt",value);
 	DefaultAssetLibrary.className.set("RegularFont",__ASSET__assets_fonts_iceland_regular_ttf1);
 	var value = Reflect.field(openfl.AssetType,"font".toUpperCase());
 	DefaultAssetLibrary.type.set("RegularFont",value);
