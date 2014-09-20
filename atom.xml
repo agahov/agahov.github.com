@@ -4,7 +4,7 @@
   <title><![CDATA[Праздник в коробке.]]></title>
   <link href="http://agahov.github.com/atom.xml" rel="self"/>
   <link href="http://agahov.github.com/"/>
-  <updated>2014-09-20T12:57:23+04:00</updated>
+  <updated>2014-09-20T13:03:35+04:00</updated>
   <id>http://agahov.github.com/</id>
   <author>
     <name><![CDATA[Julia Lugovskaya]]></name>
@@ -14,18 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Inventories.html]]></title>
-    <link href="http://agahov.github.com/blog/2014/09/20/pvk-9-inventories-dot-html/"/>
-    <updated>2014-09-20T12:21:00+04:00</updated>
-    <id>http://agahov.github.com/blog/2014/09/20/pvk-9-inventories-dot-html</id>
-    <content type="html"><![CDATA[]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Исследователи]]></title>
-    <link href="http://agahov.github.com/blog/2014/09/20/inventories-dot-html/"/>
+    <link href="http://agahov.github.com/blog/2014/09/20/pvk-9-inventories/"/>
     <updated>2014-09-20T12:21:00+04:00</updated>
-    <id>http://agahov.github.com/blog/2014/09/20/inventories-dot-html</id>
+    <id>http://agahov.github.com/blog/2014/09/20/pvk-9-inventories</id>
     <content type="html"><![CDATA[<img src="http://agahov.github.com/images/pvk9_300_200.jpg" />
 <p>
 Возраст: 4-9 лет.</br>
