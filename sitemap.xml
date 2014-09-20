@@ -16,11 +16,15 @@
     </url>
     <url>
         <loc>http://agahov.github.com/blog/2013/03/23/ks-1-dvienadtsat-miesiatsiev/</loc>
-        <lastmod>2014-06-25T19:01:12+04:00</lastmod>
+        <lastmod>2014-09-20T13:07:39+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/blog/2013/06/24/pvk-4-poezd/</loc>
         <lastmod>2014-06-25T19:15:02+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://agahov.github.com/blog/2013/09/19/pvk-10-printsiessy-rytsari-i-drakon/</loc>
+        <lastmod>2014-09-20T13:29:02+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/blog/2014/06/19/pvk-5-koldun-vugin/</loc>
@@ -39,6 +43,12 @@
         <lastmod>2014-06-25T23:27:33+04:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://agahov.github.com/blog/2014/09/19/pvk-10-printsiessy-rytsari-i-drakon-v2/
+        </loc>
+        <lastmod>2014-09-20T13:31:33+04:00</lastmod>
+    </url>
+    <url>
         <loc>http://agahov.github.com/blog/2014/09/20/pvk-9-inventories/</loc>
         <lastmod>2014-09-20T13:02:50+04:00</lastmod>
     </url>
@@ -48,15 +58,15 @@
     </url>
     <url>
         <loc>http://agahov.github.com/about/</loc>
-        <lastmod>2014-09-20T13:02:50+04:00</lastmod>
+        <lastmod>2014-09-20T13:31:33+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/blog/archives/</loc>
-        <lastmod>2014-09-20T13:02:50+04:00</lastmod>
+        <lastmod>2014-09-20T13:31:33+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/</loc>
-        <lastmod>2014-09-20T13:02:50+04:00</lastmod>
+        <lastmod>2014-09-20T13:31:33+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/inventory-app/~</loc>
@@ -64,7 +74,7 @@
     </url>
     <url>
         <loc>http://agahov.github.com/order/</loc>
-        <lastmod>2014-09-20T13:02:50+04:00</lastmod>
+        <lastmod>2014-09-20T13:31:33+04:00</lastmod>
     </url>
     <url>
         <loc>http://agahov.github.com/order/index_old.html</loc>
