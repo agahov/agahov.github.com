@@ -180,7 +180,7 @@ margin-top: -80px;
 #adds-container{
 /*    float: left;*/
    width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
    
 }
 
@@ -310,15 +310,14 @@ a.blue:link, a.blue:visited
 
 #footer-copyright
 {
-        float: right;
-    padding-right: 60px
-
+        float: left;
+    padding-left: 60px;
 }
 
 #footer-mail
 {
-        float: left;
-    padding-left: 60px;
+            float: right;
+    padding-right: 60px
 
         
 }
