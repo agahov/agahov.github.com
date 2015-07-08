@@ -299,12 +299,14 @@ a.blue:link, a.blue:visited
 #footer {
  bottom: 0;
  height: 3em; 
+ font-size:120%;
  background-color: #F8D938;
 
 }
 
 #footer-content{
     padding-top: 1em;
+    
 }
 
 
