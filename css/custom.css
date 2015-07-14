@@ -282,6 +282,11 @@ float: left;
     background-color: #EEEEEE;  
 }
 
+
+
+
+
+
 a.blue:hover, a.blue:active{
     color: #2884C7;
     
@@ -291,6 +296,11 @@ a.blue:hover, a.blue:active{
 a.blue:link, a.blue:visited 
 {
     color: #349AED;
+}
+
+#map{
+padding-bottom: 1em;
+
 }
 
 
@@ -320,8 +330,7 @@ a.blue:link, a.blue:visited
 {
             float: right;
     padding-right: 60px
-
-        
+       
 }
 
 
