@@ -3,6 +3,9 @@ $(document).ready(function ()
 {
     $("#hiddenObject").css("visibility", "hidden");
     
+    $("#hiddenObject2").css("visibility", "hidden");
+    
+    
     $("#checkBtn").click(function (e) 
     {
 
@@ -24,11 +27,28 @@ $(document).ready(function ()
                 
             $("#questForm").slideUp();    
             $("#questForm").css("visibility", "hidden");
-                
-
-            
             }
         }
+        
+          if (actorName == "Hugh" || actorName == "hugh" || actorName == "хью" || actorName == "Хью" )
+        {
+            
+            
+            
+            if (psw == "21210733")
+            {
+            
+                
+            $("#hiddenObject2").css("visibility", "visible");
+                
+            $("#questForm").slideUp();    
+            $("#questForm").css("visibility", "hidden");
+            }
+        }
+
+        
+        
+        
     });
     
 });
