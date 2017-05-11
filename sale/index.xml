@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sales on Что это?</title>
+    <link>http://pvk.org/sale/</link>
+    <description>Recent content in Sales on Что это?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Apr 2017 17:14:14 +0300</lastBuildDate>
+    
+	<atom:link href="http://pvk.org/sale/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Опубликуй рассказ получи скидку</title>
+      <link>http://pvk.org/sale/tell-us-about-your-prazdnik-sale/</link>
+      <pubDate>Thu, 13 Apr 2017 17:14:14 +0300</pubDate>
+      
+      <guid>http://pvk.org/sale/tell-us-about-your-prazdnik-sale/</guid>
+      <description>Скидка 500 рублей за рассказ о празнике, с картинками. Опубликованный с соц сети.</description>
+    </item>
+    
+    <item>
+      <title>Новый дизайн магазина</title>
+      <link>http://pvk.org/sale/new-shop-design/</link>
+      <pubDate>Thu, 13 Apr 2017 17:10:55 +0300</pubDate>
+      
+      <guid>http://pvk.org/sale/new-shop-design/</guid>
+      <description>Зовите друзей и получайте скидку 10%</description>
+    </item>
+    
+  </channel>
+</rss>
