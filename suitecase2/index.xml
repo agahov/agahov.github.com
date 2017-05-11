@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Что это?</title>
-    <link>/suitecase2/</link>
+    <link>https://agahov.github.io/suitecase2/</link>
     <description>Recent content on Что это?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>prazdnikvkorobke@gmail.com (Праздник в коробке)</managingEditor>
     <webMaster>prazdnikvkorobke@gmail.com (Праздник в коробке)</webMaster>
     
-	<atom:link href="/suitecase2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://agahov.github.io/suitecase2/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

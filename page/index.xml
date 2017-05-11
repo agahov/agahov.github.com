@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Что это?</title>
-    <link>/page/</link>
+    <link>https://agahov.github.io/page/</link>
     <description>Recent content in Pages on Что это?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>prazdnikvkorobke@gmail.com (Праздник в коробке)</webMaster>
     <lastBuildDate>Mon, 08 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://agahov.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Акции</title>
-      <link>/page/sales/</link>
+      <link>https://agahov.github.io/page/sales/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/page/sales/</guid>
+      <guid>https://agahov.github.io/page/sales/</guid>
       <description>10.05.17 – 31.05.17 В честь открытия обновленного магазина – скидка всем покупателям на все товары 12%. Введите код START2017 при оформлении заказа.
 10.05.17 – 01.10.17 Если вы ведете Инстаграм на родительскую тематику, в нем больше 3000 подписчиков и вы готовы поделиться впечатлениями о празднике, предоставим любой из Праздников в коробке бесплатно.
 Если вы хотите не пропустить появление новых наборов и быть в курсе наших акций и распродаж, подпишитесь на рассылку.</description>
@@ -26,10 +26,10 @@
     
     <item>
       <title>Аренда</title>
-      <link>/page/rent/</link>
+      <link>https://agahov.github.io/page/rent/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/page/rent/</guid>
+      <guid>https://agahov.github.io/page/rent/</guid>
       <description>Чемоданы-квесты - продолжение нашей истории о детективе Колмогорском. Книжки-квесты о нем вышли в 2016 году в издательстве МИФ.
  
 Прославившийся сыщик Колмогорский так перегружен заказами, что ему требуются помощники. Такими помощниками как раз и становятся участники квеста. Они получают чемодан и письмо с заданием. Среднее время выполнения задания – полтора-два часа. Мероприятие можно проводить дома, в кафе, в офисе, а в хорошую погоду – и в парке.
@@ -38,10 +38,10 @@
     
     <item>
       <title>Доставка</title>
-      <link>/page/delivery/</link>
+      <link>https://agahov.github.io/page/delivery/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/page/delivery/</guid>
+      <guid>https://agahov.github.io/page/delivery/</guid>
       <description>Оплата Для оплаты заказов в магазине подключены Яндекс.Касса (пластиковые карты, Яндекс.Деньги, QIWI, Webmoney) и PayPal.
 При возникновении трудностей с оплатой пишите на prazdnikvkorobke@gmail.com. Если полученный продукт вас не устроит – обменяем его на другой или вернем деньги.
 Доставка электронных товаров После оплаты вам на почту придет письмо со ссылкой на скачивание материалов. Будьте внимательны при вводе адреса электронной почты при оформлении заказа! Ссылка на скачивание действительна 72 часа.
@@ -50,10 +50,10 @@
     
     <item>
       <title>О нас</title>
-      <link>/page/about/</link>
+      <link>https://agahov.github.io/page/about/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/page/about/</guid>
+      <guid>https://agahov.github.io/page/about/</guid>
       <description>О праздниках в коробке Мы мечтаем о том, чтобы организацию дня рождения ребенка перестали считать ежегодной повинностью, чтобы дети разделяли радость сказочных приключений с родителями, а родители получали удовольствие от детских праздников.
 В каждом наборе вы найдёте сценарий праздника, который легко проводить даже неопытным ведущим, предметы и материалы, необходимые для выполнения игровых заданий, и подробную инструкцию, которая поможет всё это превратить в праздник.
 Самое важное в празднике – история, сказка, увлекающая детей, побуждающая фантазировать и додумывать свой мир.</description>
@@ -61,10 +61,10 @@
     
     <item>
       <title>Что это?</title>
-      <link>/page/what-is-it/</link>
+      <link>https://agahov.github.io/page/what-is-it/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/page/what-is-it/</guid>
+      <guid>https://agahov.github.io/page/what-is-it/</guid>
       <description>Родителям, устраивающим праздник, нужно:
  Придумать сценарий Подготовить материалы Провести мероприятие  Наши электронные сценарии решают первую задачу. Праздники в коробке справляются с первыми двумя - в них включен и сценарий, и необходимый реквизит.
 Мы берем на себя решение этих двух задач, чтобы вы сосредоточились на самой важной, третьей. Мы не проводим праздники, наша миссия - помогать родителям самостоятельно устраивать праздники.

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Блог on Что это?</title>
-    <link>/post/</link>
+    <link>https://agahov.github.io/post/</link>
     <description>Recent content in Блог on Что это?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>prazdnikvkorobke@gmail.com (Праздник в коробке)</webMaster>
     <lastBuildDate>Thu, 11 May 2017 17:31:51 +0300</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://agahov.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Тематический праздник vs квест</title>
-      <link>/post/vs/</link>
+      <link>https://agahov.github.io/post/vs/</link>
       <pubDate>Thu, 11 May 2017 17:31:51 +0300</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/post/vs/</guid>
+      <guid>https://agahov.github.io/post/vs/</guid>
       <description>Открыв в магазине направление квестов, мы столкнулись вот с какой трудностью.
 &amp;laquo;Квестом&amp;raquo; сейчас называют все, что угодно – от вопросов на экскурсии в музее до ролевой игры. В случае тематического праздника название оправдано значением этого слова: &amp;laquo;приключенческая игра, в которой герой проходит по запланированному сюжету, стремясь выполнить какое-то поручение&amp;raquo;.
 Во всех тематических праздниках есть и запланированный сюжет, и поручения. Но самое важное там – жизнь в сказочном мире. Дети могут отказываться от поручений или выполнять их по-своему, могут додумывать повороты сюжета, ставить себе новые задачи, делать все, что согласуется с правилами сказочного мира.</description>
@@ -26,10 +26,10 @@
     
     <item>
       <title>Выбор методических пособий для самостоятельной разработки праздников и квестов</title>
-      <link>/post/choose/</link>
+      <link>https://agahov.github.io/post/choose/</link>
       <pubDate>Thu, 11 May 2017 16:31:51 +0300</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/post/choose/</guid>
+      <guid>https://agahov.github.io/post/choose/</guid>
       <description>Нас регулярно спрашивают, какую из методичек лучше выбрать, чтобы сделать праздник. Поскольку однозначного ответа на этот вопрос не существует, расскажем подробно про каждую из брошюр (картинки кликабельны).
 
 Пишем сценарий детского тематического праздника. Если вы хотите научиться придумывать праздники в формате игры-приключения, эта методичка станет главным помощником. Шаг за шагом выполняя задания, вы в итоге получите готовый к использованию сценарий праздника на выбранную тему. В конце брошюры содержится множество игр и заданий, которые пригодятся при создании праздника.</description>
@@ -37,10 +37,10 @@
     
     <item>
       <title>Главное о наших праздниках</title>
-      <link>/post/main-idea/</link>
+      <link>https://agahov.github.io/post/main-idea/</link>
       <pubDate>Wed, 10 May 2017 17:31:51 +0300</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>/post/main-idea/</guid>
+      <guid>https://agahov.github.io/post/main-idea/</guid>
       <description>Хочется думать, что ценность Праздника в коробке не только в том, чтобы отметить детский день рождения или Новый год с наименьшими усилиями. Для тех, кто никогда этим не занимался, домашний праздник, даже с готовой коробкой, все равно не будет самым простым вариантом.
 Тематический праздник создает сказочный мир, в котором взрослый может побыть с ребенком на равных. Не тащить его в серьезную жизнь, демонстрируя свое превосходство, не нагружать правилами и обязанностями, а просто быть в таком месте, которое каждый может менять и достраивать по своему вкусу.</description>
     </item>
