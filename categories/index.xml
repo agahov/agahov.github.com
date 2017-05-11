@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Что это?</title>
-    <link>https://agahov.github.io/categories/</link>
+    <link>http://prazdnik-v-korobke.ru/categories/</link>
     <description>Recent content in Categories on Что это?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>prazdnikvkorobke@gmail.com (Праздник в коробке)</managingEditor>
     <webMaster>prazdnikvkorobke@gmail.com (Праздник в коробке)</webMaster>
     
-	<atom:link href="https://agahov.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://prazdnik-v-korobke.ru/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Что это?</title>
-    <link>https://agahov.github.io/tags/</link>
+    <link>http://prazdnik-v-korobke.ru/tags/</link>
     <description>Recent content in Tags on Что это?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,42 +10,42 @@
     <webMaster>prazdnikvkorobke@gmail.com (Праздник в коробке)</webMaster>
     <lastBuildDate>Mon, 08 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://agahov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://prazdnik-v-korobke.ru/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Example</title>
-      <link>https://agahov.github.io/tags/example/</link>
+      <link>http://prazdnik-v-korobke.ru/tags/example/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>https://agahov.github.io/tags/example/</guid>
+      <guid>http://prazdnik-v-korobke.ru/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photoswipe</title>
-      <link>https://agahov.github.io/tags/photoswipe/</link>
+      <link>http://prazdnik-v-korobke.ru/tags/photoswipe/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>https://agahov.github.io/tags/photoswipe/</guid>
+      <guid>http://prazdnik-v-korobke.ru/tags/photoswipe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rent</title>
-      <link>https://agahov.github.io/tags/rent/</link>
+      <link>http://prazdnik-v-korobke.ru/tags/rent/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>https://agahov.github.io/tags/rent/</guid>
+      <guid>http://prazdnik-v-korobke.ru/tags/rent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shop</title>
-      <link>https://agahov.github.io/tags/shop/</link>
+      <link>http://prazdnik-v-korobke.ru/tags/shop/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com (Праздник в коробке)</author>
-      <guid>https://agahov.github.io/tags/shop/</guid>
+      <guid>http://prazdnik-v-korobke.ru/tags/shop/</guid>
       <description></description>
     </item>
     
