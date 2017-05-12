@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://prazdnik-v-korobke.ru/inventory-app/index/</loc>
+    <loc>http://prazdnik-v-korobke.ru/inventory-app/</loc>
   </url>
   
   <url>
@@ -66,11 +66,6 @@
   <url>
     <loc>http://prazdnik-v-korobke.ru/tags/example/</loc>
     <lastmod>2017-05-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://prazdnik-v-korobke.ru/inventory-app/</loc>
     <priority>0</priority>
   </url>
   
