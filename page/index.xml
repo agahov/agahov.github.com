@@ -14,17 +14,6 @@
     
     
     <item>
-      <title>Акции</title>
-      <link>http://prazdnik-v-korobke.ru/page/sales/</link>
-      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
-      <author>prazdnikvkorobke@gmail.com</author>
-      <guid>http://prazdnik-v-korobke.ru/page/sales/</guid>
-      <description>10.07.17 – 31.12.17 Каждую неделю со вторника по четверг можно купить один из Праздников в коробке со скидкой 10%. Интригу — когда и на что будет скидка, — заранее не раскрываем, но наборы не повторяются.
-10.05.17 – 01.10.17 Если вы ведете Инстаграм на родительскую тематику, в нем больше 3000 подписчиков и вы готовы поделиться впечатлениями о празднике, предоставим любой из Праздников в коробке бесплатно.
-Архив 14.06.17 – 20.06.17 Разгадывайте любой чемодан-квест в уютном помещении пространства «Содружество» по цене аренды 1200 руб.</description>
-    </item>
-    
-    <item>
       <title>Доставка</title>
       <link>http://prazdnik-v-korobke.ru/page/delivery/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
@@ -53,7 +42,18 @@
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       <author>prazdnikvkorobke@gmail.com</author>
       <guid>http://prazdnik-v-korobke.ru/page/find/</guid>
-      <description> xSearch(&#34;id=my-search-5432069&#34;);   </description>
+      <description>Введите слово, содержащееся в названии или описании товара. Для поиска по нескольким словам или фразе – возьмите текст в кавычки, например &amp;ldquo;квест на английском&amp;rdquo;.
+ xSearch(&#34;id=my-search-5432069&#34;);   </description>
+    </item>
+    
+    <item>
+      <title>Рассылка</title>
+      <link>http://prazdnik-v-korobke.ru/page/sales/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      <author>prazdnikvkorobke@gmail.com</author>
+      <guid>http://prazdnik-v-korobke.ru/page/sales/</guid>
+      <description>Если вы хотите не пропускать появление новых наборов, быть в курсе наших акций и распродаж, узнавать о наших планах еще в процессе их реализации – подпишитесь на рассылку. Частота рассылки одно-два письма в месяц, только при наличии новостей.
+#mc_embed_signup{clear:left; font:14px; width:500px;} .email /* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file.</description>
     </item>
     
     <item>
