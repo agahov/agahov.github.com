@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Праздник в коробке</title>
-    <link>http://prazdnik-v-korobke.ru/suitecase/</link>
+    <link>https://prazdnik-v-korobke.ru/suitecase/</link>
     <description>Recent content on Праздник в коробке</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>prazdnikvkorobke@gmail.com</managingEditor>
     <webMaster>prazdnikvkorobke@gmail.com</webMaster>
     
-	<atom:link href="http://prazdnik-v-korobke.ru/suitecase/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://prazdnik-v-korobke.ru/suitecase/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
