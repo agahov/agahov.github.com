@@ -152,9 +152,9 @@ ul li {
   transition-duration: 0.4s;
 }
 
-.order-btn:hovers {
+.order-btn:hover {
   color: #fff;
-  --background-color: #98c33a;
+  background-color: #98c33a;
 }
 
 .footer {
@@ -181,13 +181,13 @@ ul li {
 }
 
 a:link,
-:visited {
+a:visited {
   color: #6a83eb;
   text-decoration: none;
 }
 
 a:hover,
-:active {
+a:active {
   color: #8b9fbd;
   text-decoration: none;
 }
