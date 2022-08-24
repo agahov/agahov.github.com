@@ -159,13 +159,14 @@ ul li {
 
 .footer {
   margin-top: 1rem;
+
   display: flex;
 
   flex-grow: 0;
 
-  gap: 1rem;
+  gap: 0;
   align-self: center;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -217,12 +218,13 @@ a:hover,
     flex-direction: column;
     align-items: baseline;
   }
+
   .faq {
     fill: aliceblue;
     color: white;
 
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
     align-items: center;
   }
 }
