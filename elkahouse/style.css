@@ -152,10 +152,9 @@ ul li {
   transition-duration: 0.4s;
 }
 
-.order-btn:hover,
-:active {
+.order-btn:hovers {
   color: #fff;
-  background-color: #98c33a;
+  --background-color: #98c33a;
 }
 
 .footer {
@@ -164,11 +163,12 @@ ul li {
 
   flex-grow: 0;
 
-  gap: 2rem;
+  gap: 1rem;
   align-self: center;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
 }
+
 .footer-text {
   flex-grow: 1;
   display: flex;
