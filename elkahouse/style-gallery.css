@@ -62,8 +62,9 @@
 @media not all and (min-resolution: 0.001dpcm) {
   @media {
     .gallery {
-      display: inline-block;
-      width: 95%;
+      --display: inline-block;
+      width: 400px;
+      flex-grow: 0;
 
       background-position: center 30%;
       background-repeat: no-repeat;
@@ -71,6 +72,11 @@
 
       background-image: url("img/gallery-mix.jpg");
     }
+    .middle .text {
+      flex-basis: 400px;
+      flex-grow: 1;
+    }
+
     .gallery > img {
       display: none;
     }
