@@ -23,6 +23,20 @@
       var psw;
       var q;
 
+      function fromBinary(binary) {
+        const bytes = Uint8Array.from(
+          { length: binary.length },
+          (element, index) => binary.charCodeAt(index)
+        );
+        const charCodes = new Uint16Array(bytes.buffer);
+
+        let result = "";
+        charCodes.forEach((char) => {
+          result += String.fromCharCode(char);
+        });
+        return result;
+      }
+
       function ready() {
         const params = new URLSearchParams(window.location.search);
         console.log("search" + window.location.search);
@@ -30,7 +44,12 @@
         console.log("q: " + params.get("q"));
         q = params.get("q");
         //todo encode
-        q = atob(q);
+        // q = atob(q);
+
+        const decoded = atob(q);
+        const original = fromBinary(decoded);
+        q = original;
+        console.log("decoded q: " + q);
 
         if (q) {
           var param_list = q.split("|");
