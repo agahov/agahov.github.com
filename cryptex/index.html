@@ -5,83 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Code</title>
+    <title>Сейф-мастер</title>
 
     <script src="//cdn.jsdelivr.net/npm/simple-crypto-js@2.5.0/dist/SimpleCrypto.min.js"></script>
 
     <script src="js/qrcode.min.js"></script>
   </head>
   <body>
-    <header><h1>Криптех</h1></header>
+    <header>
+      <div class="title">
+        <span class="title-first">Квесто</span
+        ><span class="title-second">сейф</span>
+      </div>
+    </header>
 
     <div class="main" role="main">
-      <form class="form" action="#" autocomplete="off">
-        <div class="form-item">
-          <input
-            class="form-input form-psw"
-            type="text"
-            id="psw_input"
-            title="Используйте цифровой код, пожалуйста"
-            name="psw"
-            aria-label="password"
-            placeholder="код"
-            pattern="[0-9]{6}"
-            maxlength="150"
-            inputmode="numeric"
-            required
-            value="111111"
-          />
-          <p>код из шести(6) цифр</p>
-        </div>
+      <div class="block icon1">
+        <p>
+          Используйте <span class="title-first-small">Квесто</span
+          ><span class="title-second-small">cейф</span>, чтобы заменить кодовый
+          замок или криптекс в квесте. Задайте код, введите секретное сообщение,
+          создайте ссылку и отправьте ее участникам квеста вместе с заданиями.
+          Ваше секретное сообщение смогут прочесть, если правильно разгадают и
+          введут код.
+        </p>
+      </div>
 
-        <div class="form-item">
-          <textarea
-            class="form-input form-message"
-            type="text"
-            rows="8"
-            cols="20"
-            id="message"
-            maxlength="150"
-            placeholder="послание"
-            inputmode="full-width-latin"
-            required
-            autocomplete="off"
-          >
-Привет</textarea
-          >
-          <p>послание масимум 150 символов</p>
-        </div>
-
-        <div id="generator" class="hide">
-          <p>Передайте ссылку получатклю секретного сообщения</p>
-          <div id="qrcode"></div>
-
-          <div class="link">
-            <a
-              href="https://prazdnik-v-korobke.ru/cryptex/lock.html"
-              id="qrcode-link"
-            >
-              https://prazdnik-v-korobke.ru/cryptex/lock.html</a
-            >
+      <div class="block icon2">
+        <form class="form" action="#" autocomplete="off">
+          <div class="form-item">
+            <input
+              class="form-input form-psw"
+              type="text"
+              id="psw_input"
+              title="Используйте цифровой код от 3 до 7 цифр без пробелов"
+              name="psw"
+              aria-label="password"
+              placeholder="код"
+              pattern="[0-9]{3,7}"
+              maxlength="9"
+              inputmode="numeric"
+              required
+              value="111111"
+            />
+            <p>Введите ваш код (от 3 до 7 цифр без пробелов)</p>
           </div>
-        </div>
 
-        <br />
-        <button class="form-input form-btn" id="form-btn" type="submit">
-          Зашифровать
-        </button>
-      </form>
+          <div class="form-item">
+            <textarea
+              class="form-input form-message"
+              type="text"
+              rows="8"
+              cols="20"
+              id="message"
+              maxlength="120"
+              placeholder="секретное сообщение"
+              inputmode="full-width-latin"
+              required
+              autocomplete="off"
+            >
+Привет</textarea
+            >
+            <p>Введите секретное сообщение (до 120 знаков)</p>
+          </div>
+
+          <div id="generator" class="hide">
+            <p>ссылка на сейф</p>
+            <div id="qrcode"></div>
+
+            <div class="link">
+              <a
+                href="https://prazdnik-v-korobke.ru/cryptex/lock.html"
+                id="qrcode-link"
+              >
+                https://prazdnik-v-korobke.ru/cryptex/lock.html</a
+              >
+            </div>
+          </div>
+
+          <br />
+          <button class="form-input form-btn" id="form-btn" type="submit">
+            Создать ссылку
+          </button>
+        </form>
+      </div>
     </div>
 
-    <footer></footer>
+    <a href="https://prazdnik-v-korobke.ru/"
+      ><img class="banner" src="img/banner.jpg" alt=""
+    /></a>
+
+    <footer class="pvk">
+      <div class="logo">
+        <a href="https://prazdnik-v-korobke.ru/"
+          ><img src="img/pvk-logo.jpg" alt=""
+        /></a>
+      </div>
+
+      <div>
+        <p>
+          Разработка
+          <a href="https://prazdnik-v-korobke.ru/"> Праздник в коробке</a>
+        </p>
+        <p>Сценарии, игры, квесты для детей и взрослых</p>
+        <p>
+          Присоединяйтесь к нам в
+          <a href="https://t.me/prazdnikvkorobke">Телеграм</a>
+        </p>
+      </div>
+    </footer>
 
     <script>
-      // generate qr and link
-      //animation
-      //lock.html
-      //   style
-      //   logic
-
       var form = document.querySelector(".form");
       var root_link = "https://prazdnik-v-korobke.ru/cryptex/lock.html";
       //root_link = "http://localhost:1313/cryptex/lock.html";
@@ -170,7 +204,7 @@
 
         pswInput.disabled = true;
         msgInput.disabled = true;
-        formBtn.innerText = "Новая шифровка";
+        formBtn.innerText = "Новое сообщение";
 
         //-animation
         //disabled form style
@@ -187,7 +221,7 @@
 
         pswInput.disabled = false;
         msgInput.disabled = false;
-        formBtn.innerText = "Зашифровать";
+        formBtn.innerText = "Создать ссылку";
       }
 
       function encrypt() {
