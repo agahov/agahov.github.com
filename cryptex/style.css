@@ -157,9 +157,9 @@ header {
 }
 
 .icon1 {
-  font-size: 0.9rem;
-  line-height: 1.5rem;
-  font-weight: lighter;
+  --font-size: 0.9rem;
+  --line-height: 1.5rem;
+  --font-weight: lighter;
 }
 
 .icon1::before {
