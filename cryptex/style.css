@@ -75,23 +75,25 @@ textarea {
 .title-first {
   font-weight: bold;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 .title-second {
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-transform: lowercase;
 }
 
 .title-first-small {
-  --display: inline-flex;
   font-weight: bold;
-  font-size: 1.1em;
+  --font-size: 1.1em;
+  text-transform: uppercase;
 }
 
 .title-second-small {
-  --display: inline-flex;
   font-weight: lighter;
-  font-size: 0.8em;
+  text-transform: lowercase;
+  --font-size: 0.8em;
 }
 
 body {
@@ -157,9 +159,9 @@ header {
 }
 
 .icon1 {
-  --font-size: 0.9rem;
-  --line-height: 1.5rem;
-  --font-weight: lighter;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: lighter;
 }
 
 .icon1::before {
@@ -181,7 +183,7 @@ header {
 }
 
 .icon2 {
-  border-color: #289be1;
+  border-color: var(--clr-form);
 }
 
 .icon2::before {
@@ -231,17 +233,17 @@ header {
   padding: 10px;
   --margin: auto;
 
-  color: #577889;
+  color: var(--clr-form);
 
   background-color: #fff;
-  border: 1px solid #77b5db;
+  border: 1px solid var(--clr-form);
   border-radius: 5px;
   resize: none;
 }
 
 .form-btn {
   color: #fff;
-  background-color: #77b5db;
+  background-color: var(--clr-form);
   border: none;
 }
 
@@ -258,11 +260,11 @@ header {
 }
 
 .form-input::placeholder {
-  color: #629098;
+  color: var(--clr-form);
 }
 
 .form-input:focus::placeholder {
-  color: #4c3457;
+  color: var(--clr-info);
 }
 
 input[type="text"]:disabled {
@@ -309,14 +311,14 @@ footer {
 }
 
 .logo {
-  width: 80px;
+  width: 40px;
   margin-right: 2rem;
   font-weight: bold;
   font-size: 1rem;
 }
 
 .logo img {
-  width: 100px;
+  width: 60px;
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
 }
