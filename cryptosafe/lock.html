@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enter Conde</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .key-message {
+        font-weight: lighter;
+        width: 100%;
+        display: none;
+        font-size: 3rem;
+        --border: 2px solid #4c3457;
+        color: #60b3e5;
+        padding: 2rem 2rem;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Секретное сообщение</h1></header>
+    <div class="main block icon2">
+      <div id="message"></div>
+
+      <form id="psw-form" class="form" autocomplete="off">
+        <div class="form-item">
+          <input
+            maxlength="3"
+            type="text"
+            class="form-input big"
+            id="psw_input"
+            name="psw"
+            inputmode="numeric"
+            placeholder="###"
+          />
+        </div>
+
+        <button id="psw_btn" type="submit" class="form-input form-btn">
+          Ok
+        </button>
+      </form>
+      <div class="key-message" id="key-message"></div>
+    </div>
+
+    <script>
+      const form = document.querySelector("#psw-form");
+      const psw_btn = document.getElementById("psw_btn");
+      const psw_input = document.getElementById("psw_input");
+      const key_message = document.getElementById("key-message");
+      const pswForm = document.getElementById("psw-form");
+
+      var key;
+      var psw;
+      var q;
+
+      function fromBinary(binary) {
+        const bytes = Uint8Array.from(
+          { length: binary.length },
+          (element, index) => binary.charCodeAt(index)
+        );
+        const charCodes = new Uint16Array(bytes.buffer);
+
+        let result = "";
+        charCodes.forEach((char) => {
+          result += String.fromCharCode(char);
+        });
+        return result;
+      }
+
+      function formatPswItem() {
+        var psw_len = psw.length;
+        //psw_input.style.width = psw_len + 2 + "ch";
+
+        psw_input.maxlength = psw_len;
+        psw_input.setAttribute("maxlength", psw_len);
+        psw_input.placeholder = "";
+        for (let step = 0; step < psw_len; step++) {
+          psw_input.placeholder += "#";
+        }
+      }
+
+      function ready() {
+        const params = new URLSearchParams(window.location.search);
+        console.log("search" + window.location.search);
+
+        console.log("q: " + params.get("q"));
+        q = params.get("q");
+        //todo encode
+        // q = atob(q);
+
+        const decoded = atob(q);
+        const original = fromBinary(decoded);
+        q = original;
+        console.log("decoded q: " + q);
+
+        if (q) {
+          var param_list = q.split("|");
+          psw = param_list[0];
+          key = param_list[1];
+          formatPswItem();
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", ready);
+    </script>
+
+    <script>
+      const element_msg = document.getElementById("message");
+
+      function is_params_valid() {
+        return key && psw;
+      }
+
+      window.onload = function () {
+        if (is_params_valid()) {
+          element_msg.innerHTML = "код из " + psw.length + " цифр";
+        } else {
+          element_msg.innerHTML = "Ошибка, проверьте ссылку";
+        }
+      };
+    </script>
+    <script>
+      function check_psw() {
+        if (psw_input.value == psw) {
+          key_message.style.display = "inline";
+          key_message.innerText = key;
+
+          pswForm.style.display = "none";
+          element_msg.style.display = "none";
+        } else {
+          element_msg.innerHTML = "Ошибка, неправильный код";
+        }
+      }
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        console.log("check psw");
+        check_psw();
+      });
+    </script>
+  </body>
+</html>
