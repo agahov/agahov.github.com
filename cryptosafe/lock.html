@@ -83,18 +83,27 @@
         }
       }
 
+      function shift_str(str, counter) {
+        let result = "";
+        for (let i = 0; i < str.length; i++) {
+          let charCode = str.charCodeAt(i);
+          result += String.fromCharCode(charCode + counter);
+        }
+        console.log(result);
+        return result;
+      }
+
       function ready() {
         const params = new URLSearchParams(window.location.search);
         console.log("search" + window.location.search);
 
         console.log("q: " + params.get("q"));
         q = params.get("q");
-        //todo encode
-        // q = atob(q);
 
-        const decoded = atob(q);
-        const original = fromBinary(decoded);
-        q = original;
+        q = shift_str(q, -100);
+        //const decoded = atob(q);
+        //const original = fromBinary(decoded);
+        //q = original;
         console.log("decoded q: " + q);
 
         if (q) {

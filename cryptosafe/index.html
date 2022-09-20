@@ -163,6 +163,8 @@
         );
         const charCodes = new Uint16Array(bytes.buffer);
 
+        //console.log(charCodes);
+
         let result = "";
         charCodes.forEach((char) => {
           result += String.fromCharCode(char);
@@ -170,16 +172,28 @@
         return result;
       }
 
+      function shift_str(str, counter) {
+        let result = "";
+        for (let i = 0; i < str.length; i++) {
+          let charCode = str.charCodeAt(i);
+          result += String.fromCharCode(charCode + counter);
+        }
+        console.log(result);
+        return result;
+      }
+
       function generateLink() {
         var params = pswInput.value + "|" + msgInput.value;
 
-        const converted = toBinary(params);
+        params = shift_str(params, 100);
 
-        console.log("back conver: " + fromBinary(converted));
+        //const converted = toBinary(params);
 
-        const encoded = btoa(converted);
+        //console.log("back conver: " + fromBinary(converted));
 
-        params = encoded;
+        //const encoded = btoa(converted);
+
+        //params = encoded;
         link = root_link + "?q=" + params;
         qrLink.href = link;
         qrLink.innerText = link;
