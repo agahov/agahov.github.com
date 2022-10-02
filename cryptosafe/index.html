@@ -5,260 +5,248 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>КвестоСейф</title>
-
-    <script src="//cdn.jsdelivr.net/npm/simple-crypto-js@2.5.0/dist/SimpleCrypto.min.js"></script>
 
     <script src="js/qrcode.min.js"></script>
+
+    <title>КвестоСейф</title>
   </head>
   <body>
-    <header>
-      <div class="title">
-        <span class="title-first">Квесто</span
-        ><span class="title-second">сейф</span>
-      </div>
-    </header>
+    <container>
+      <header>
+        <span class="title">
+          <span class="title-first">Квесто</span
+          ><span class="title-second">сейф</span>
+        </span>
+      </header>
+      <main>
+        <div class="block icon1">
+          <p>
+            Используйте
+            <span class="title small">
+              <span class="title-first">Квесто</span
+              ><span class="title-second">cейф</span> </span
+            >, чтобы заменить кодовый замок или криптекс в квесте. Напишите код
+            и секретное сообщение, создайте ссылку и отправьте ее участникам
+            квеста вместе с заданиями. Ваше сообщение смогут прочесть, если
+            введут правильный код.
+          </p>
+        </div>
 
-    <div class="main" role="main">
-      <div class="block icon1">
-        <p>
-          Используйте <span class="title-first-small">Квесто</span
-          ><span class="title-second-small">cейф</span>, чтобы заменить кодовый
-          замок или криптекс в квесте. Напишите код и секретное сообщение,
-          создайте ссылку и отправьте ее участникам квеста вместе с заданиями.
-          Ваше сообщение смогут прочесть, если введут правильный код.
-        </p>
-      </div>
-
-      <div class="block icon2">
-        <form class="form" action="#" autocomplete="off">
-          <div class="form-item">
-            <input
-              class="form-input form-psw"
-              type="text"
-              id="psw_input"
-              title="Используйте цифровой код от 3 до 7 цифр без пробелов"
-              name="psw"
-              aria-label="password"
-              placeholder="код"
-              pattern="[0-9]{3,7}"
-              maxlength="7"
-              inputmode="numeric"
-              required
-              value=""
-            />
-            <p>Введите ваш код (от 3 до 7 цифр без пробелов)</p>
-          </div>
-
-          <div class="form-item">
-            <textarea
-              class="form-input form-message"
-              type="text"
-              rows="8"
-              cols="20"
-              id="message"
-              maxlength="120"
-              placeholder="сообщение"
-              inputmode="full-width-latin"
-              required
-              autocomplete="off"
-            ></textarea>
-            <p>Введите секретное сообщение (до 120 знаков)</p>
-          </div>
-
-          <div id="generator" class="hide">
-            <p>ваша ссылка</p>
-            <div id="qrcode"></div>
-
-            <div class="link">
-              <a href="#" id="qrcode-link" target="_blank"> #</a>
+        <div class="block icon2">
+          <form class="form" action="#" autocomplete="off">
+            <div class="form-item">
+              <input
+                class="form-input form-psw"
+                type="text"
+                id="psw_input"
+                title="Используйте цифровой код от 3 до 7 цифр без пробелов"
+                name="psw"
+                aria-label="password"
+                placeholder="код"
+                pattern="[0-9]{3,7}"
+                maxlength="7"
+                inputmode="numeric"
+                required
+                value=""
+              />
+              <p>Введите ваш код (от 3 до 7 цифр без пробелов)</p>
             </div>
-          </div>
 
-          <br />
-          <button class="form-input form-btn" id="form-btn" type="submit">
-            Создать ссылку
-          </button>
-        </form>
-      </div>
-    </div>
+            <div class="form-item">
+              <textarea
+                class="form-input form-message"
+                type="text"
+                rows="8"
+                cols="20"
+                id="message"
+                maxlength="120"
+                placeholder="сообщение"
+                inputmode="full-width-latin"
+                required
+                autocomplete="off"
+              ></textarea>
+              <p>Введите секретное сообщение (до 120 знаков)</p>
+            </div>
 
-    <a href="https://prazdnik-v-korobke.ru/elkahouse/" target="_blank"
-      ><img class="banner" src="img/banner.jpg" alt=""
-    /></a>
+            <div id="generator" class="hide">
+              <p>ваша ссылка</p>
+              <div id="qrcode"></div>
 
-    <footer class="pvk">
-      <div class="logo">
-        <a href="https://prazdnik-v-korobke.ru/" target="_blank"
-          ><img src="img/pvk-logo.jpg" alt=""
-        /></a>
-      </div>
+              <div class="link">
+                <a href="#" id="qrcode-link" target="_blank"> #</a>
+              </div>
+            </div>
 
-      <div>
-        <p>
-          Разработка
-          <a href="https://prazdnik-v-korobke.ru/" target="_blank">
-            Праздник в коробке</a
-          >
-        </p>
-        <p>Сценарии, игры, квесты для детей и взрослых</p>
-        <p>
-          Присоединяйтесь к нам в
-          <a href="https://t.me/prazdnikvkorobke" target="_blank">Телеграм</a>
-        </p>
-      </div>
-    </footer>
+            <button class="form-input form-btn" id="form-btn" type="submit">
+              Создать ссылку
+            </button>
+          </form>
+        </div>
+      </main>
+      <a href="https://prazdnik-v-korobke.ru/elkahouse/" target="_blank"
+        ><img class="banner" src="img/banner.jpg" alt=""
+      /></a>
 
-    <script>
-      var form = document.querySelector(".form");
-      var root_link = "https://prazdnik-v-korobke.ru/cryptosafe/lock.html";
-      //root_link = "http://localhost:1313/cryptex/lock.html";
-      //root_link = "http://localhost:5500/content/cryptex/lock.html";
-      var link = "";
+      <footer>
+        <div class="logo">
+          <a href="https://prazdnik-v-korobke.ru/" target="_blank"
+            ><img src="img/pvk-logo.jpg" alt=""
+          /></a>
+        </div>
 
-      var pswInput = document.querySelector("#psw_input");
-      var msgInput = document.querySelector("#message");
+        <div class="contacts">
+          <p>
+            Разработка
+            <a href="https://prazdnik-v-korobke.ru/" target="_blank">
+              Праздник в коробке</a
+            >
+          </p>
+          <p>Сценарии, игры, квесты для детей и взрослых</p>
+          <p>
+            Присоединяйтесь к нам в
+            <a href="https://t.me/prazdnikvkorobke" target="_blank">Телеграм</a>
+          </p>
+        </div>
+      </footer>
 
-      var formBtn = document.getElementById("form-btn");
+      <script>
+        var form = document.querySelector(".form");
+        var root_link = "https://prazdnik-v-korobke.ru/cryptosafe/lock.html";
+        //root_link = "http://localhost:1313/cryptex/lock.html";
+        //root_link = "http://localhost:5500/content/cryptex/lock.html";
+        var link = "";
 
-      var footer = document.querySelector("footer");
+        var pswInput = document.querySelector("#psw_input");
+        var msgInput = document.querySelector("#message");
 
-      var formInput = document.querySelector(".form-input");
-      var generator = document.getElementById("generator");
-      let qrLink = document.getElementById("qrcode-link");
+        var formBtn = document.getElementById("form-btn");
 
-      var isGenerated = false;
+        var footer = document.querySelector("footer");
 
-      var qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: root_link,
-        width: 250,
-        height: 250,
-        colorDark: "#000000",
-        colorLight: "#ffffff",
-        correctLevel: QRCode.CorrectLevel.H,
-      });
+        var formInput = document.querySelector(".form-input");
+        var generator = document.getElementById("generator");
+        let qrLink = document.getElementById("qrcode-link");
 
-      function isValid() {
-        return true;
-      }
+        var isGenerated = false;
 
-      function toBinary(string) {
-        const codeUnits = Uint16Array.from(
-          { length: string.length },
-          (element, index) => string.charCodeAt(index)
-        );
-        const charCodes = new Uint8Array(codeUnits.buffer);
-
-        let result = "";
-        charCodes.forEach((char) => {
-          result += String.fromCharCode(char);
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+          text: root_link,
+          width: 300,
+          height: 300,
+          colorDark: "#000000",
+          colorLight: "#ffffff",
+          correctLevel: QRCode.CorrectLevel.H,
         });
-        return result;
-      }
 
-      function fromBinary(binary) {
-        const bytes = Uint8Array.from(
-          { length: binary.length },
-          (element, index) => binary.charCodeAt(index)
-        );
-        const charCodes = new Uint16Array(bytes.buffer);
-
-        //console.log(charCodes);
-
-        let result = "";
-        charCodes.forEach((char) => {
-          result += String.fromCharCode(char);
-        });
-        return result;
-      }
-
-      function shift_str(str, counter) {
-        let result = "";
-        for (let i = 0; i < str.length; i++) {
-          let charCode = str.charCodeAt(i);
-          result += String.fromCharCode(charCode + counter);
+        function isValid() {
+          return true;
         }
-        console.log(result);
-        return result;
-      }
 
-      function generateLink() {
-        var params = pswInput.value + "|" + msgInput.value;
+        function toBinary(string) {
+          const codeUnits = Uint16Array.from(
+            { length: string.length },
+            (element, index) => string.charCodeAt(index)
+          );
+          const charCodes = new Uint8Array(codeUnits.buffer);
 
-        params = shift_str(params, 100);
-
-        //const converted = toBinary(params);
-
-        //console.log("back conver: " + fromBinary(converted));
-
-        //const encoded = btoa(converted);
-
-        //params = encoded;
-        link = root_link + "?q=" + params;
-        qrLink.href = link;
-        qrLink.innerText = root_link + "/...";
-      }
-
-      function generateQR() {
-        qrcode.clear();
-        qrcode.makeCode(link);
-      }
-
-      function showGeneration() {
-        isGenerated = true;
-        generator.classList.toggle("hide");
-
-        //generator.style.display = "flex";
-
-        pswInput.disabled = true;
-        msgInput.disabled = true;
-        formBtn.innerText = "Новое сообщение";
-
-        //-animation
-        //disabled form style
-        //add style to form item
-
-        //animation
-      }
-
-      function hideGeneration() {
-        isGenerated = false;
-
-        generator.classList.toggle("hide");
-        //generator.style.display = "none";
-
-        pswInput.disabled = false;
-        msgInput.disabled = false;
-        formBtn.innerText = "Создать ссылку";
-      }
-
-      function encrypt() {
-        event.preventDefault();
-
-        if (isGenerated) {
-          hideGeneration();
-        } else {
-          if (!isValid) return;
-          generateLink();
-          generateQR();
-          showGeneration();
+          let result = "";
+          charCodes.forEach((char) => {
+            result += String.fromCharCode(char);
+          });
+          return result;
         }
-      }
 
-      function toggleClassMenu() {
-        var layout = document.querySelector(".layout");
-        if (!layout.classList.contains("app-menu-open")) {
-          layout.classList.add("app-menu-open");
-        } else {
-          layout.classList.remove("app-menu-open");
+        function fromBinary(binary) {
+          const bytes = Uint8Array.from(
+            { length: binary.length },
+            (element, index) => binary.charCodeAt(index)
+          );
+          const charCodes = new Uint16Array(bytes.buffer);
+
+          //console.log(charCodes);
+
+          let result = "";
+          charCodes.forEach((char) => {
+            result += String.fromCharCode(char);
+          });
+          return result;
         }
-      }
 
-      //var oppMenu = document.querySelector(".menu-icon");
-      //oppMenu.addEventListener("click", toggleClassMenu, false);
+        function shift_str(str, counter) {
+          let result = "";
+          for (let i = 0; i < str.length; i++) {
+            let charCode = str.charCodeAt(i);
+            result += String.fromCharCode(charCode + counter);
+          }
+          console.log(result);
+          return result;
+        }
 
-      //formBtn.addEventListener("click", encrypt);
-      form.addEventListener("submit", encrypt);
-    </script>
+        function generateLink() {
+          var params = pswInput.value + "|" + msgInput.value;
+
+          params = shift_str(params, 100);
+
+          //const converted = toBinary(params);
+
+          //console.log("back conver: " + fromBinary(converted));
+
+          //const encoded = btoa(converted);
+
+          //params = encoded;
+          link = root_link + "?q=" + params;
+          qrLink.href = link;
+          qrLink.innerText = root_link + "/...";
+        }
+
+        function generateQR() {
+          qrcode.clear();
+          qrcode.makeCode(link);
+        }
+
+        function showGeneration() {
+          isGenerated = true;
+          generator.classList.toggle("hide");
+
+          //generator.style.display = "flex";
+
+          pswInput.disabled = true;
+          msgInput.disabled = true;
+          formBtn.innerText = "Новое сообщение";
+
+          //-animation
+          //disabled form style
+          //add style to form item
+
+          //animation
+        }
+
+        function hideGeneration() {
+          isGenerated = false;
+
+          generator.classList.toggle("hide");
+          //generator.style.display = "none";
+
+          pswInput.disabled = false;
+          msgInput.disabled = false;
+          formBtn.innerText = "Создать ссылку";
+        }
+
+        function encrypt() {
+          event.preventDefault();
+
+          if (isGenerated) {
+            hideGeneration();
+          } else {
+            if (!isValid) return;
+            generateLink();
+            generateQR();
+            showGeneration();
+          }
+        }
+
+        form.addEventListener("submit", encrypt);
+      </script>
+    </container>
   </body>
 </html>

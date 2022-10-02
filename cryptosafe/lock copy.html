@@ -22,32 +22,29 @@
     </style>
   </head>
   <body>
-    <container class="vertical-align" >
-      <header><h1>Секретное сообщение</h1></header>
+    <header><h1>Секретное сообщение</h1></header>
+    <div class="main block icon2">
+      <div id="message"></div>
 
-      <main >
-        <div class="block icon2">
-          <div id="message"></div>
-          <form id="psw-form" class="form" autocomplete="off">
-            <div class="form-item">
-              <input
-                maxlength="3"
-                type="text"
-                class="form-input big"
-                id="psw_input"
-                name="psw"
-                inputmode="numeric"
-                placeholder="###"
-              />
-            </div>
-            <button id="psw_btn" type="submit" class="form-input form-btn">
-              Ok
-            </button>
-          </form>
-          <div class="key-message" id="key-message"></div>
+      <form id="psw-form" class="form" autocomplete="off">
+        <div class="form-item">
+          <input
+            maxlength="3"
+            type="text"
+            class="form-input big"
+            id="psw_input"
+            name="psw"
+            inputmode="numeric"
+            placeholder="###"
+          />
         </div>
-      </main>
-    </с>
+
+        <button id="psw_btn" type="submit" class="form-input form-btn">
+          Ok
+        </button>
+      </form>
+      <div class="key-message" id="key-message"></div>
+    </div>
 
     <script>
       const form = document.querySelector("#psw-form");
