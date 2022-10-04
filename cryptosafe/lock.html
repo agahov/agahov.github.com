@@ -12,6 +12,7 @@
       .key-message {
         font-weight: lighter;
         width: 100%;
+        word-wrap: break-word;
         display: none;
         font-size: 1.6rem;
         --border: 2px solid #4c3457;
@@ -22,32 +23,30 @@
     </style>
   </head>
   <body>
-    <container class="vertical-align" >
+    <container class="vertical-align">
       <header><h1>Секретное сообщение</h1></header>
 
-      <main >
-        <div class="block icon2">
-          <div id="message"></div>
-          <form id="psw-form" class="form" autocomplete="off">
-            <div class="form-item">
-              <input
-                maxlength="3"
-                type="text"
-                class="form-input big"
-                id="psw_input"
-                name="psw"
-                inputmode="numeric"
-                placeholder="###"
-              />
-            </div>
-            <button id="psw_btn" type="submit" class="form-input form-btn">
-              Ok
-            </button>
-          </form>
-          <div class="key-message" id="key-message"></div>
-        </div>
-      </main>
-    </с>
+      <div class="block icon2">
+        <div id="message"></div>
+        <form id="psw-form" class="form" autocomplete="off">
+          <div class="form-item">
+            <input
+              maxlength="3"
+              type="text"
+              class="form-input big"
+              id="psw_input"
+              name="psw"
+              inputmode="numeric"
+              placeholder="###"
+            />
+          </div>
+          <button id="psw_btn" type="submit" class="form-input form-btn">
+            Ok
+          </button>
+        </form>
+        <div class="key-message" id="key-message"></div>
+      </div>
+    </container>
 
     <script>
       const form = document.querySelector("#psw-form");
@@ -138,7 +137,7 @@
     <script>
       function check_psw() {
         if (psw_input.value == psw) {
-          key_message.style.display = "block";
+          key_message.style.display = "inline-block ";
           key_message.innerText = key;
 
           pswForm.style.display = "none";
