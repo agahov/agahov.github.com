@@ -68,7 +68,7 @@
               <p>Введите секретное сообщение (до 120 знаков)</p>
             </div>
 
-            <div id="generator" class="hide">
+            <div id="generator" class="slide-up">
               <p>ваша ссылка</p>
               <div id="qrcode"></div>
 
@@ -206,7 +206,9 @@
 
         function showGeneration() {
           isGenerated = true;
-          generator.classList.toggle("hide");
+          //generator.classList.toggle("hide");
+          generator.classList.toggle("slide-up");
+          generator.classList.toggle("slide-down");
 
           //generator.style.display = "flex";
 
@@ -224,7 +226,8 @@
         function hideGeneration() {
           isGenerated = false;
 
-          generator.classList.toggle("hide");
+          generator.classList.toggle("slide-up");
+          generator.classList.toggle("slide-down");
           //generator.style.display = "none";
 
           pswInput.disabled = false;
@@ -233,7 +236,12 @@
         }
 
         function encrypt() {
+          setTimeout(function () {
+            formBtn.disabled = false;
+          }, 700);
+
           event.preventDefault();
+          formBtn.disabled = true;
 
           if (isGenerated) {
             hideGeneration();

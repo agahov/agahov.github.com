@@ -242,6 +242,12 @@ form {
 .form-btn:hover {
   background-color: var(--clr-form-accent);
 }
+
+.form-btn:disabled,
+.form-btn[disabled] {
+  background-color: var(--clr-disable);
+}
+
 *:focus {
   outline: var(--clr-form-accent) solid 2px;
 }
@@ -308,19 +314,35 @@ a:hover {
 #generator {
   font-weight: 700;
   --need-calc-height: 0;
-  height: 400px;
-  line-height: 1.1rem;
+  --height: 400px;
+  --line-height: 1.1rem;
   margin: 2rem auto 0;
-  overflow: hidden;
-  transition: all 400ms ease-in-out;
+  --overflow: hidden;
+  --transition: all 400ms ease-in-out;
 }
 
-#generator.hide {
+.slide-up,
+.slide-down {
+  overflow: hidden;
+}
+div.slide-up,
+div.slide-down {
+  --transform: scale(1, 1);
+  transition: max-height 0.5s ease-in;
+  --transition: height 1s ease;
+  max-height: 0;
+}
+div.slide-down {
+  transition: max-height 0.5s ease-out;
+  max-height: 500px;
+}
+
+/* #generator.hide {
   height: 0px;
   line-height: 0rem;
   margin: -1rem auto;
   padding: 0;
-}
+} */
 
 #qrcode * {
   margin: 0 auto;

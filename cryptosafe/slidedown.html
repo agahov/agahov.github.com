@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+
+.slide-up, .slide-down {
+  overflow:hidden;
+}
+div.slide-up, div.slide-down{
+  --transform: scale(1,1);
+    transition: max-height 0.5s ease-in;
+  --transition: height 1s ease;
+    max-height: 0;
+}
+div.slide-down {            
+    transition: max-height 0.5s ease-out;
+    max-height: 500px;
+  
+} 
+
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <container>
+      <div class="block">
+        <form class="form" action="#" autocomplete="off">
+            <div class="form-item">
+              <input
+                class="form-input form-psw"
+                type="text"
+                id="psw_input"
+                title="Используйте цифровой код от 3 до 7 цифр без пробелов"
+                name="psw"
+                aria-label="password"
+                placeholder="код"
+                pattern="[0-9]{3,7}"
+                maxlength="7"
+                inputmode="numeric"
+                required
+                value="1111"
+              />
+              <p>Введите ваш код (от 3 до 7 цифр без пробелов)</p>
+            </div>
+
+            <div class="form-item">
+              <textarea
+                class="form-input form-message"
+                type="text"
+                rows="8"
+                cols="20"
+                id="message"
+                maxlength="120"
+                placeholder="сообщение"
+                inputmode="full-width-latin"
+                required
+                autocomplete="off"
+              >sdfafsaff fdsfa sfaf sfsfs fssf fsfsf fdf</textarea>
+              <p>Введите секретное сообщение (до 120 знаков)</p>
+            </div>
+
+            <div id = "generator" class="slide-up">
+                <p>ваша ссылка</p>
+                <img src="img/qr.png" alt="" />
+                <div id="qrcode"></div>
+  
+                <div class="link">
+                  <a href="#" id="qrcode-link" target="_blank">http://127.0.0.1:5500/content/cryptosafe/slidedown.html?psw=1111#</a>
+                </div>
+  
+            
+            </div>
+
+            <button class="form-input form-btn" id="form-btn" type="submit">
+              Создать ссылку
+            </button>
+      </div>
+      
+
+    
+    </container>
+
+    <script>
+
+var form = document.querySelector(".form");       
+var generator = document.getElementById("generator");
+
+function encrypt() {
+          event.preventDefault();
+          if (generator)
+            {
+
+
+          generator.classList.toggle("slide-up");
+          generator.classList.toggle("slide-down");
+    }
+}
+
+        form.addEventListener("submit", encrypt);
+    </script>
+  </body>
+</html>
