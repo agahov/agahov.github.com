@@ -70,7 +70,7 @@
             </div>
 
             <div id="generator" class="slide-up">
-              <p>ваша ссылка</p>
+              <p>Ссылка на ваш криптосейф</p>
               <div id="qrcode"></div>
 
               <div class="link">
@@ -215,8 +215,8 @@
           msgInput.disabled = true;
           formBtn.innerText = "Новое сообщение";
 
-          qrLink.href = "http://" + link;
-          qrLink.innerText = "http://" + link;
+          qrLink.href = link;
+          qrLink.innerText = link;
 
           //-animation
           //disabled form style
@@ -250,7 +250,7 @@
             generateLink();
             shorterUrlRespose = await shortenUrl(link);
             if (!shorterUrlRespose.errors) {
-              link = shorterUrlRespose.shortUrl;
+              link = "https://" + shorterUrlRespose.shortUrl;
             }
 
             generateQR();
