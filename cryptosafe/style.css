@@ -75,7 +75,6 @@ input,
 select,
 textarea {
   font-family: inherit;
-  --font-size: 100%;
 }
 
 /* layout */
@@ -96,16 +95,6 @@ body {
   margin-top: 1.5em;
 }
 
-.vertical-align {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  justify-content: center;
-
-  min-height: 80vh;
-}
-
 container {
   display: block;
   margin-left: auto;
@@ -120,7 +109,8 @@ container {
 header {
   margin: 0 auto;
   text-align: center;
-  font-size: 8vw;
+  --font-size: clamp(1.5rem, calc(0.5rem + 6vw), 1.8rem);
+  font-size: min(3rem, 7vw);
 }
 
 .title {
@@ -154,11 +144,15 @@ header .title-second::after {
   background-image: url(img/key_icon.svg);
   background-repeat: no-repeat;
 
-  background-size: 30px;
+  --background-size: 30px;
+  background-size: 1em;
   position: absolute;
 
-  width: 30px;
-  height: 30px;
+  --width: 30px;
+  --height: 30px;
+  width: 1em;
+  height: 1em;
+
   right: -0.7em;
   top: 0.5em;
 }
@@ -239,6 +233,35 @@ form {
   color: #fff;
   background-color: var(--clr-form);
   border: none;
+  position: relative;
+}
+
+.form-btn_loading {
+  border: gray solid 1px;
+}
+
+.form-btn_loading::after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 1em;
+  left: 1em;
+  margin: auto;
+  border: 4px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .form-btn:hover {

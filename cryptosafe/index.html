@@ -195,12 +195,10 @@
           params = shift_str(params, 100);
 
           //const converted = toBinary(params);
-
           //console.log("back conver: " + fromBinary(converted));
-
           //const encoded = btoa(converted);
-
           //params = encoded;
+
           link = root_link + "?q=" + params;
         }
 
@@ -248,6 +246,7 @@
 
           event.preventDefault();
           formBtn.disabled = true;
+          formBtn.classList.add("form-btn_loading");
 
           if (isGenerated) {
             hideGeneration();
@@ -263,6 +262,7 @@
             showGeneration();
           }
           formBtn.disabled = false;
+          formBtn.classList.remove("form-btn_loading");
         }
 
         form.addEventListener("submit", encrypt);
