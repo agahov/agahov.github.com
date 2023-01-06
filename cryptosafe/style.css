@@ -311,6 +311,7 @@ textarea[type="text"]:disabled {
 }
 
 footer {
+  margin: 3rem 0 0 0;
   width: 100%;
   font-size: 0.6rem;
 }
