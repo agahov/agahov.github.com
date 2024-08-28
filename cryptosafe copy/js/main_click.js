@@ -26,53 +26,27 @@ const responseField = document.querySelector("#responseField");
 // };
 
 // shortenUrl function written using Async wait request
-const shortenUrl_old = async (link) => {
-  const urlToShorten = link;
-  const data = JSON.stringify({
-    destination: urlToShorten,
-    //domain: { fullName: "cryptosafe.prazdnik-v-korobke.ru" },
-    domain: { fullName: "prazdnik-v-korobke.ru/cryptosafe/lock.html" },
-    //    domain: { fullName: "cryptosafe.prazdnik-v-korobke.ru" },
-  });
-
-  try {
-    const response = await fetch(url, {
-      method: "POST",
-      body: data,
-      headers: {
-        "Content-type": "application/json",
-        apikey: apiKey,
-      },
-    });
-    if (response.ok) {
-      const jsonResponse = await response.json();
-      //renderResponse(jsonResponse);
-      return jsonResponse;
-    }
-  } catch (error) {
-    console.log(error);
-    return error;
-  }
-};
-
 const shortenUrl = async (link) => {
-  const urlToShorten = link;
-  const data = JSON.stringify({
-    destination: urlToShorten,
-    //domain: { fullName: "cryptosafe.prazdnik-v-korobke.ru" },
-    domain: { fullName: "prazdnik-v-korobke.ru/cryptosafe/lock.html" },
-    //    domain: { fullName: "cryptosafe.prazdnik-v-korobke.ru" },
-  });
+  // const urlToShorten = link;
+  //  const data = JSON.stringify({ destination: urlToShorten });
 
   try {
-    const response = await fetch(url, {
-      method: "POST",
-      body: data,
-      headers: {
-        "Content-type": "application/json",
-        apikey: apiKey,
-      },
+    // url = 'http://bit.ly'
+    // import urllib2
+    // fetcher = urllib2.urlopen(
+    //       'https://clck.ru/--?url='+
+    //       url)
+    // etcher.read()
+    // 'https://clck.ru/8JM'
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "text/plain");
+
+    let clickURL = "https://clck.ru/--?url=" + link;
+    const response = await fetch(clickURL, {
+      method: "GET",
+      headers: myHeaders,
     });
+
     if (response.ok) {
       const jsonResponse = await response.json();
       //renderResponse(jsonResponse);
